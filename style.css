@@ -11,7 +11,7 @@ body {
 
 .appContainer {
 	position: relative;
-	height: 100vh;
+	height: 110vh;
 	background: url(bg.png) no-repeat center center ,#36d7dc;
 	background: url(bg.png) no-repeat center center ,-moz-linear-gradient(top, #36d7dc 0%, #36dcb8 100%);
 	background: url(bg.png) no-repeat center center ,-webkit-linear-gradient(top, #36d7dc 0%,#36dcb8 100%);
