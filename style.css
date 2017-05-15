@@ -63,6 +63,7 @@ body {
 	align-items: center;
 	overflow: hidden;
 	box-shadow: 0 2px 1px 0 rgba(207,207,207,0.50), 0 4px 0 0 #FFFFFF, 0 6px 1px 0 rgba(0,0,0,0.08), 0 8px 0 0 #FFFFFF, 0 12px 16px 0 rgba(0,0,0,0.18);
+	margin-bottom: 20px;
 }
 
 .cardItem__content {
