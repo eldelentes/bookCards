@@ -1,0 +1,203 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: 0;
+}
+
+body {
+	font-family: 'Varela Round', sans-serif;
+	font-size: 14px;
+}
+
+.appContainer {
+	position: relative;
+	height: 100vh;
+	background: url(bg.png) no-repeat center center ,#36d7dc;
+	background: url(bg.png) no-repeat center center ,-moz-linear-gradient(top, #36d7dc 0%, #36dcb8 100%);
+	background: url(bg.png) no-repeat center center ,-webkit-linear-gradient(top, #36d7dc 0%,#36dcb8 100%);
+	background: url(bg.png) no-repeat center center ,linear-gradient(to bottom, #36d7dc 0%,#36dcb8 100%);
+	background-size: cover;
+}
+
+.iphoneStatus {
+	width: 98%;
+	padding-top: 10px;
+	margin: 0 auto;
+	display: block;
+}
+
+.appHeader {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 90%;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+
+.appHeader__back {
+	transform: scale(0.5);
+}
+
+.appHeader__title,
+.appHeader__link {
+	color: #fff;
+	font-size: 16px;
+	text-decoration: none;
+}
+
+.appHeader__link {
+	transform: scale(0.5);
+}
+
+.cardItem {
+	padding: 20px;
+	background: #fff;
+	border-radius: 30px;
+	width: 80%;
+	margin-left: 5%;
+	text-align: center;
+	min-height: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	box-shadow: 0 2px 1px 0 rgba(207,207,207,0.50), 0 4px 0 0 #FFFFFF, 0 6px 1px 0 rgba(0,0,0,0.08), 0 8px 0 0 #FFFFFF, 0 12px 16px 0 rgba(0,0,0,0.18);
+}
+
+.cardItem__content {
+	display: none;
+}
+
+.quote h3 {
+	margin: 10px;
+    color: #1F6261;
+}
+
+.cardItem__text {
+	font-size: 28px;
+	color: #1F6261;
+}
+
+.quote .cardItem__text {
+	color: #1F6261;
+	opacity: 0.5;
+	font-size: 22px;
+    padding: 0px 20px;
+}
+
+.cardItem__emoji {
+	font-size: 52px;
+	margin: 10px 0px;
+	display: block;
+}
+
+.progress {
+	text-align: center;
+	padding: 20px 0;
+	font-size: 22px;
+}
+
+.progress  span {
+	color: rgba(255,255,255,0.5);
+}
+
+.progress .is-current {
+	color: #fff;
+}
+
+.buttons {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.button {
+	box-shadow: 0 8px 11px 0 rgba(0,0,0,0.26);
+	height: 80px;
+	width: 80px;
+	border-radius: 50%;
+	text-decoration: none;
+	background: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0px 10px;
+	transition: all 0.2s ease;
+}
+
+.button:active {
+	transform: scale(1.5);
+}
+
+.button span {
+	font-size: 38px;
+}
+
+.cardItem__final {
+	display: none;
+}
+
+.cardItem__final .book {
+	transform: scale(0.5);
+}
+
+.cardItem__final h4 {
+	color: #146459;
+	font-size: 14px;
+}
+
+.cardItem__final p {
+	font-size: 22px;
+	color: #69ADAC;
+	margin: 10px 0;
+}
+
+.cardItem__final a {
+	background: #36D7DC;
+    color: #fff;
+    padding: 15px 55px;
+    border-radius: 100px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+}
+
+.cardItem__final .friends {
+	transform: scale(0.5);
+}
+
+.cardItem__final p strong {
+	color: #2A605F;
+}
+
+.cardItem__final .friendsText {
+	display: block;
+	color: #50667C;
+}
+
+.related h2 {
+	text-align: center;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.related {
+	overflow: hidden;
+    display: none;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.related .books {
+	transform: translateX(5%);
+	width: 430px;
+}
+
+.related img {
+	width: 100px;
+	margin-right: 10px;
+}
